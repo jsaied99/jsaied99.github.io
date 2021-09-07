@@ -1,0 +1,87 @@
+html {
+/*    background-color: #717171;*/
+    color: #333;
+    /* color: white; */
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+#myBody {
+    color: #333;
+}
+/*
+reference from: 
+https://www.w3schools.com/howto/howto_css_center-vertical.asp
+*/
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#picture{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 250px; 
+    border: 5px solid black;
+}
+.pictureHeader{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    font-size: 22px;
+    color:aliceblue;
+}
+body {
+    width: 100%;
+    background-color:darkgrey;
+}
+
+/* reference from: 
+https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+.fa-my {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: black;
+  color: white;  
+}
+
+.fa-resume {
+    padding: 15px;
+    width: 30px;
+    padding-top: 25px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    font-size: 15px;
+
+}
+
+.fa {
+     width: 90px !important;
+}
